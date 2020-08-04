@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 app.get('/about', function (req, res) {
-  res.send('Hello');
+  res.send('Hello 123456');
 });
 app.get('/contact', function (req, res) {
   res.send('<h1>haru</h1>');
