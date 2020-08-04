@@ -8,11 +8,11 @@ pipeline {
                 git 'https://github.com/handuy/hello-pipeline.git' 
             }
         }
-        // stage('Test') { 
-        //     steps {
-        //         // 
-        //     }
-        // }
+        stage('Build image') { 
+            steps {
+                sh 'docker build -t handuy1992/hello-pipeline:latest .'
+            }
+        }
         // stage('Deploy') { 
         //     steps {
         //         // 
