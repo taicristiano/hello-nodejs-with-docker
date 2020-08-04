@@ -3,6 +3,9 @@ var app = express();
 app.get('/about', function (req, res) {
   res.send('Hello world');
 });
+app.get('/contact', function (req, res) {
+  res.send('<h1>haru</h1>');
+});
 app.get('/', function (req, res) {
   res.send('<h1>Hura</h1>');
 });
