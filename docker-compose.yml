@@ -1,0 +1,7 @@
+version: '3'
+name: hello-node
+services:
+  app:
+    image: taicristiano/node-js-with-docker
+    ports:
+      - "9003:3000"

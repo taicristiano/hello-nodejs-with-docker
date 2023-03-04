@@ -24,3 +24,6 @@ CMD [ "npm", "start" ]
 
 #Kill port
 #npx kill-port 3000
+
+#RUN Docker compose
+# docker-compose up -d
